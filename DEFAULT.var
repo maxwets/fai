@@ -1,0 +1,3 @@
+#!/bin/sh
+#export FAI_ALLOW_UNSIGNED=1
+export TIMEZONE='Europe/Brussels'
