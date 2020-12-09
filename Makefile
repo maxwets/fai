@@ -1,8 +1,8 @@
-CP=cp -r
+CP=cp
 
 FAI=/srv/fai/config/
 
-all:
+all: basefiles class debconf disk_config files hooks package_config scripts tests
 
 basefiles:
 	$(CP) ./basefiles/* $(FAI)/basefiles/.
