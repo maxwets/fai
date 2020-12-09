@@ -1,4 +1,4 @@
 #!/bin/sh
 
-echo "Installing media players..."
-snap install vlc
+# Installing media players
+snap install vlc mpv sxiv eog

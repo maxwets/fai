@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Installing dev tools..."
+# Installing dev tools
 
 apt update
 apt --yes install git make 

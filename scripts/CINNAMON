@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Intalling cinnamon..."
+# Intalling cinnamon
 
 add-apt-repository ppa:embrosyn/cinnamon -y
 apt update

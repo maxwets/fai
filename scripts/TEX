@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Install latex packages + kile/texmaker IDE's
+
+apt update
+apt install texlive-full kile texmaker

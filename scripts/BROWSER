@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Installing browsers..."
+# Installing browser
 
 apt update
 apt --yes install firefox
