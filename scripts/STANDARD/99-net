@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Installing network tools
+
+apt-get --yes install net-tools slapd wireshark nmap iftop vnstat slurm bmon tcpdump
