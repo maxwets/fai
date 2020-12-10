@@ -25,7 +25,7 @@ You should have a fast network connection, because most packages are
 downloaded from the internet.
 Classes: INSTALL FAIBASE DEBIAN DEMO XORG GNOME
 
-Name: standard
+Name: Standard
 Description: Ubuntu 20.04 desktop installation
 Short: Unity desktop
 Long: We use the Debian nfsroot for installing the Ubuntu OS.
