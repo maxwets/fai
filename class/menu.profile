@@ -31,7 +31,7 @@ Short: Unity desktop
 Long: We use the Debian nfsroot for installing the Ubuntu OS.
 You should have a fast network connection, because most packages are
 downloaded from the internet.
-Classes: INSTALL FAIBASE DEBIAN UBUNTU XORG XFCE FOCAL FOCAL64 STANDARD
+Classes: INSTALL FAIBASE DEBIAN XORG XFCE STANDARD
 
 Name: Ubuntu
 Description: Ubuntu 20.04 desktop installation
