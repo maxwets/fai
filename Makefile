@@ -1,6 +1,6 @@
 CP=cp
 
-FAI=/srv/fai/config/
+FAI=/srv/fai/config
 
 all: basefiles class debconf disk_config files hooks package_config scripts tests
 
