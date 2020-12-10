@@ -1,4 +1,4 @@
-PACKAGES install-norec STANDARD
+PACKAGES install
 
 # the list of standard packages, without any libs and a few packages removed
 apt-listchanges
@@ -30,10 +30,9 @@ traceroute
 ucf
 xz-utils
 
-PACKAGES install-norec
+
 firefox
 
-PACKAGES install STANDARD
 git
 make
 gcc
@@ -45,19 +44,17 @@ python3-pip
 default-jdk
 default-jre
 
-PACKAGES install-norec STANDARD
 emacs
 nano
 neovim
 vim
 
-PACKAGES install-norec STANDARD
 net-tools
 slapd
 wireshark
 nmap
 iftop
-vnstat
 slurm
 bmon
+vnstat
 tcpdump
