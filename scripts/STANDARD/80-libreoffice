@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Installing libre office
+
+add-apt-repository ppa:libreoffice/ppa -y
+apt --yes update
+apt --yes install libreoffice
+apt --yes install hunspell-en-us hyphen-en-us mythes-en-us libreoffice-help-en-us
+apt --yes install hunspell-fr hyphen-fr mythes-fr libreoffice-help-fr
+apt --yes  install libreoffice-gtk3
+apt --yes install libreoffice-style*

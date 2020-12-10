@@ -1,0 +1,9 @@
+PACKAGES install-norec
+
+firefox-esr
+#thunderbird
+menu gdm3
+gnome-core
+gconf-editor
+gnome-screensaver gnome-system-monitor gnome-system-tools
+network-manager-gnome

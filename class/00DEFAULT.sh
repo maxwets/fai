@@ -6,8 +6,9 @@ case $HOSTNAME in
 	sysadmin*)
 		echo "FAIBASE GRUB DHCP XORG DEV EDIT NET GNOME";;
 	faiserver*)
-        echo "FAIBASE DEBIAN DHCPC DEV EDIT NET FAISERVER" ;;
+        	echo "FAIBASE DEBIAN DHCPC DEV EDIT NET FAISERVER" ;;
 	*)
 		echo "FAIBASE GRUB DHCP XORG";;
 
 esac
+
