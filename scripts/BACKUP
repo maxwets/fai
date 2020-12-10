@@ -1,9 +1,9 @@
 #! /bin/bash
-
-tar --create --listed-incremental=backup.snap --verbose --file=backup.tar /etc /home /bin
+[ -d /opt/backup/ ] || mkdir /opt/backup/
+tar --create --listed-incremental=/opt/backup.snap --verbose --file=/opt/backup.tar /etc /home /bin
 
 #se crée dans /var/spool/cron/crontabs/root
 
-PATH=/var/spool/cron/crontabs/root
+PATH_TO_BACKUP=/var/spool/cron/crontabs/root
 
-echo "59 23 * * 1 tar -czvg backup.snap -f backup-\$(date +'%d_%m_%Y').tar /etc /home /bin" >> $PATH
+echo "59 23 * * 1 tar -czvg backup.snap -f backup-\$(date +'%d_%m_%Y').tar /etc /home /bin" >> $PATH_TO_BACKUP
