@@ -1,7 +1,3 @@
-# install net setup
-PACKAGES install NETSETUP
-net-tools slapd wireshark nmap iftop vnstat slurm bmon tcpdump
-
 PACKAGES install
 unrar zip unzip p7zip-full bzip2 gzip
 firefox
