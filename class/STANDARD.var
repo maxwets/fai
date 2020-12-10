@@ -1,2 +1,2 @@
-export FAI_ALLOW_UNSIGNED=1
-export TIMEZONE='Europe/Brussels'
+FAI_ALLOW_UNSIGNED=1
+TIMEZONE='Europe/Brussels'
