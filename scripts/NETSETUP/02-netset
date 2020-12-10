@@ -1,3 +1,0 @@
-apt --yes install net-tools slapd wireshark nmap iftop vnstat slurm bmon tcpdump > /dev/null 2>&1
-
-
