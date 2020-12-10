@@ -1,3 +1,6 @@
+#!/bin/sh
 
-apt update
-apt -y install apt-transport-https
+# Installing base files
+
+apt-get update
+apt-get --yes install sudo apt-transport-https curl wget gnupg openssh-client openssh-server

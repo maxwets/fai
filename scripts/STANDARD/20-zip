@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Installing zip tools
+
+apt-get update
+apt-get --yes install unrar zip unzip p7zip-full bzip2 gzip

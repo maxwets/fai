@@ -1,4 +1,0 @@
-#!/bin/sh
-
-# Installing media players
-snap install vlc mpv sxiv eog
