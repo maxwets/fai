@@ -1,7 +1,0 @@
-#!/bin/sh
-
-# Installing dev tools
-
-apt-get update
-apt-get --yes install git make 
-apt-get --yes install gcc g++ build-essential gdb python3 python3-pip default-jdk default-jre

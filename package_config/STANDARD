@@ -29,3 +29,35 @@ telnet
 traceroute
 ucf
 xz-utils
+
+PACKAGES install
+firefox
+
+PACKAGES install
+git
+make
+gcc
+g++
+build-essential
+gdb
+python3
+python3-pip
+default-jdk
+default-jre
+
+PACKAGES install
+emacs
+nano
+neovim
+vim
+
+PACKAGES install
+net-tools
+slapd
+wireshark
+nmap
+iftop
+vnstat
+slurm
+bmon
+tcpdump
