@@ -29,10 +29,4 @@ telnet
 traceroute
 ucf
 xz-utils
-
-#PACKAGES install
-#unrar zip unzip p7zip-full bzip2 gzip
-#firefox
-#git make gcc g++ build-essential gdb python3 python3-pip default-jdk default-jre
-#emacs nano neovim vim
-#texlive-full kile texmaker
+sudo
