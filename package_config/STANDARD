@@ -1,5 +1,4 @@
 PACKAGES install-norec
-
 # the list of standard packages, without any libs and a few packages removed
 apt-listchanges
 bash-completion
