@@ -9,8 +9,8 @@
 case $HOSTNAME in
     faiserver)
         echo "FAIBASE DEBIAN DEMO FAISERVER STANDARD UTILS" ;;
-    employee*)
+    client*)
         echo "FAIBASE DEBIAN UBUNTU FOCAL FOCAL64 XORG LVM STANDARD UTILS";;
-    sysadmin*)
+    xfcehost*)
         echo "FAIBASE DEBIAN UBUNTU FOCAL FOCAL64 XORG LVM STANDARD UTILS";;
 esac
