@@ -2,13 +2,13 @@
 
 # Installing browser
 
-apt-get update
-apt-get --yes install firefox
+#apt-get update
+#apt-get --yes install firefox
 
-curl -s https://brave-browser-apt-get-nightly.s3.brave.com/brave-core-nightly.asc | apt-get-key --keyring /etc/apt-get/trusted.gpg.d/brave-browser-prerelease.gpg add -
+#curl -s https://brave-browser-apt-get-nightly.s3.brave.com/brave-core-nightly.asc | apt-get-key --keyring /etc/apt-get/trusted.gpg.d/brave-browser-prerelease.gpg add -
 
-echo "deb [arch=amd64] https://brave-browser-apt-get-nightly.s3.brave.com/ stable main" | tee /etc/apt-get/sources.list.d/brave-browser-nightly.list
+#echo "deb [arch=amd64] https://brave-browser-apt-get-nightly.s3.brave.com/ stable main" | tee /etc/apt-get/sources.list.d/brave-browser-nightly.list
 
-apt-get update
+#apt-get update
 
-apt-get install brave-browser-nightly
+#apt-get install brave-browser-nightly

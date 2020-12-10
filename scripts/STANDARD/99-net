@@ -2,4 +2,4 @@
 
 # Installing network tools
 
-apt-get --yes install net-tools slapd wireshark nmap iftop vnstat slurm bmon tcpdump
+#apt-get --yes install net-tools slapd wireshark nmap iftop vnstat slurm bmon tcpdump
