@@ -1,0 +1,7 @@
+#! /bin/bash
+[ -d /opt/backup/ ] || mkdir /opt/backup/
+tar --create --listed-incremental=/opt/backup.snap --verbose --file=/opt/backup.tar /etc /home /bin
+
+PATH_TO_CRON=/var/spool/cron/crontabs/root
+
+echo "59 23 * * 1 fai -v -s nfs://faiserver/srv/fai/config softupdate" >> $PATH_TO_CRON
