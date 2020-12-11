@@ -9,7 +9,7 @@ TIMEZONE=Europe/Brussels
 
 # the hash of the root password for the new installed linux system
 # pw is "toor"
-ROOTPW='$1$5IRza6Zd$BgIq0v/n3PzoMl30a4JZZ1'
+ROOTPW='$1$EJrKsed5$.2.B/y/CpO8RCNpUC0Sph1'
 
 # errors in tasks greater than this value will cause the installation to stop
 STOP_ON_ERROR=700
@@ -19,5 +19,5 @@ MAXPACKAGES=800
 
 # a user account will be created
 username=admin
-USERPW='$1$q.inCuhB$2wPX6uUuZ5PRSIXsfPf5I0' # admin
+USERPW='$1$TGAbJGik$pY9rbxah7r84JJAXGW4FE1' # admin
 LOGUSER=fai
