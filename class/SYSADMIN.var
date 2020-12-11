@@ -19,5 +19,5 @@ MAXPACKAGES=800
 
 # a user account will be created
 username=admin
-USERPW='$1$TGAbJGik$pY9rbxah7r84JJAXGW4FE1' # admin
+USERPW='$1$yJ/Nq52S$3GV03dE9.8zEfyuZHz6M71' # admin
 LOGUSER=fai
