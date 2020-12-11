@@ -6,4 +6,4 @@ tar --create --listed-incremental=/opt/backup.snap --verbose --file=/opt/backup.
 
 PATH_TO_CRON=/var/spool/cron/crontabs/root
 
-echo "59 23 * * 1 tar -czvg backup.snap -f backup-\$(date +'%d_%m_%Y').tar /etc /home /bin" >> $PATH_TO_CRON
+ainsl -a $PATH_TO_CRON "59 23 * * 1 tar -czvg backup.snap -f backup-\$(date +'%d_%m_%Y').tar /etc /home /bin" 

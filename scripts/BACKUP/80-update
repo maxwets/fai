@@ -4,4 +4,4 @@ tar --create --listed-incremental=/opt/backup.snap --verbose --file=/opt/backup.
 
 PATH_TO_CRON=/var/spool/cron/crontabs/root
 
-echo "59 23 * * 1 fai -v -s nfs://faiserver/srv/fai/config softupdate" >> $PATH_TO_CRON
+ainsl -a $PATH_TO_CRON "59 23 * * 1 fai -v -s nfs://faiserver/srv/fai/config softupdate"
