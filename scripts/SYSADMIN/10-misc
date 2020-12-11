@@ -14,8 +14,7 @@ if ifclass UBUNTU; then
      $ROOTCMD addgroup --system sambashare || true
 fi
 
-echo "zebi jmai executee" > /opt/zebi
-
+touch /root/touchdown
 username="admin"
 # add additional user account
 if ! $ROOTCMD getent passwd $username ; then
