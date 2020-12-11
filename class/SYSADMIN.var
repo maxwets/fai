@@ -11,12 +11,6 @@ TIMEZONE=Europe/Brussels
 # pw is "toor"
 ROOTPW='$1$EJrKsed5$.2.B/y/CpO8RCNpUC0Sph1'
 
-# errors in tasks greater than this value will cause the installation to stop
-STOP_ON_ERROR=700
-
-# set parameter for install_packages(8)
-MAXPACKAGES=800
-
 # a user account will be created
 username=admin
 USERPW='$1$yJ/Nq52S$3GV03dE9.8zEfyuZHz6M71' # admin
