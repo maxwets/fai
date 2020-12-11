@@ -8,9 +8,9 @@
 # use a list of classes for our demo machine
 case $HOSTNAME in
     faiserver)
-        echo "FAIBASE DEBIAN DEMO FAISERVER STANDARD UTILS" ;;
-    client*)
-        echo "FAIBASE DEBIAN UBUNTU FOCAL FOCAL64 XORG LVM STANDARD UTILS";;
-    xfcehost*)
-        echo "FAIBASE DEBIAN XORG LVM STANDARD UTILS";;
+        echo "FAIBASE DEBIAN DEMO FAISERVER STANDARD UTILS FRENCH" ;;
+    employee*)
+        echo "FAIBASE DEBIAN XORG XFCE LVM STANDARD UTILS EMPLOYEE FRENCH BACKUP";;
+    sysadmin*)
+        echo "FAIBASE DEBIAN XORG XFCE LVM STANDARD UTILS SYSADMIN FRENCH BACKUP";;
 esac

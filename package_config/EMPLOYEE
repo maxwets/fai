@@ -1,2 +1,5 @@
 PACKAGES install-norec
 htop iotop nmon
+
+PACKAGES install
+libreoffice
