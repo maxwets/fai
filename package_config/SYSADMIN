@@ -1,0 +1,2 @@
+PACKAGES install
+net-tools slapd wireshark nmap iftop vnstat slurm bmon tcpdump
