@@ -1,0 +1,23 @@
+# default values for installation. You can override them in your *.var files
+
+# allow installation of packages from unsigned repositories
+FAI_ALLOW_UNSIGNED=1
+
+# Set UTC=yes if your system clock is set to UTC (GMT), and UTC=no if not.
+UTC=yes
+TIMEZONE=Europe/Brussels
+
+# the hash of the root password for the new installed linux system
+# pw is "toor"
+ROOTPW='$1$5IRza6Zd$BgIq0v/n3PzoMl30a4JZZ1'
+
+# errors in tasks greater than this value will cause the installation to stop
+STOP_ON_ERROR=700
+
+# set parameter for install_packages(8)
+MAXPACKAGES=800
+
+# a user account will be created
+username=admin
+USERPW='$1$q.inCuhB$2wPX6uUuZ5PRSIXsfPf5I0' # admin
+LOGUSER=fai
