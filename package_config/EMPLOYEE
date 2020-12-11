@@ -1,5 +1,7 @@
 PACKAGES install-norec
 htop iotop nmon
 
-PACKAGES install
-libreoffice
+# only when also class XORG is defined
+PACKAGES install-norec XORG
+bb xpenguins
+#frozen-bubble
