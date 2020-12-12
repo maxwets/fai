@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash 
 [ -d /opt/backup/ ] || mkdir /opt/backup/
 tar --create --listed-incremental=/opt/backup.snap --verbose --file=/opt/backup.tar /etc /home /bin
 
